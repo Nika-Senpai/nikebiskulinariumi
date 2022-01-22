@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp">
+
+
+
+                <ImageView
+                    android:id="@+id/pirkerdzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chalaghaji" />
+
+                <TextView
+                    android:id="@+id/chalagaji"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="140dp"
+                    android:gravity="center"
+                    android:text="სამარხო ჩალაღაჯი"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/meorekerdzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kuchmachi" />
+
+                <TextView
+
+                    android:id="@+id/kuchmachi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="კუჭმაჭი(დიეტური)"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="140dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/mesamekerdzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tashmijabi" />
+
+                <TextView
+                    android:id="@+id/tashmijabi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="თაშმიჯაბი"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="140dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/meotxekerdzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/doradoia" />
+
+                <TextView
+                    android:id="@+id/dorado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="შავი ზღვის მაგვარიე დორადო"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="140dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold" >
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/mexutekerdzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/aligatori" />
+
+                <TextView
+                    android:id="@+id/aligatori"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ალიგატორის ნაგეცები"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="140dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="45dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/meeqvsekerdzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gebjalia" />
+
+                <TextView
+                    android:id="@+id/gebjalia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="გებჟალია"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="140dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/saidumlo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:backgroundTint="@color/white"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
